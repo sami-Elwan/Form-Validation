@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border:5px solid blue;
+    margin-top: 90px;
+    width:40%;
+    background-color:thistle;
+
+}
+label{
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+ input{
+    border:2px solid gold;
+    padding:10px;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.good input{
+    border-color: green;
+}
+.bad input{
+    border-color: red;
+}
+
+ .bad small{
+    visibility: visible;
+}
+.good small{
+    visibility: hidden;
+}
+
+small{
+    margin-left: 65px;
+    color:red;
+    font-size:larger;
+   visibility: hidden;
+}
+button{
+    padding:10px;
+    width:80%;
+    font-size: x-large;
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:darkgoldenrod;
+}
